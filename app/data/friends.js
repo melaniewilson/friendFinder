@@ -1,0 +1,49 @@
+var friendArray = [{
+  "name":"Coco",
+  "photo":"https://i.imgur.com/wp2zb73l.jpg",
+  "scores":[
+      5,
+      1,
+      4,
+      4,
+      5,
+      1,
+      2,
+      5,
+      4,
+      1
+    ],
+    "sumScores":32
+},{
+  "name":"Pepperoni",
+  "photo":"https://fthmb.tqn.com/rb-XPOl_MOWRBJAVq97jE05k-j0=/1553x1932/filters:no_upscale():fill(transparent,1)/bengalcat-56a2bcd95f9b58b7d0cdf798.jpg",
+  "scores":[
+      5,
+      3,
+      3,
+      2,
+      3,
+      2,
+      4,
+      2,
+      4,
+      3
+    ],
+    "sumScores":31
+},{
+  "name":"Fifi",
+  "photo":"http://www.findcatnames.com/wp-content/uploads/2015/09/White-cat-names.jpg",
+  "scores":[
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "sumScores":10
+}];
