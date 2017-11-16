@@ -5,15 +5,215 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Friend Finder | Survey</title>
-        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="shortcut icon" href="./assets/images/favicon.ico">
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
         <!-- CSS -->
-        <link rel="stylesheet" href="">    
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <!-- font awesome -->
+        <script src="https://use.fontawesome.com/f9df423f4a.js"></script>
+        <!-- jQuery -->
+	     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>  
     </head>
     <body>
-        
-        
+    	<div class="container">
+	        <div class="jumbotron">
+				<h1 class="display-3">
+				<i class="fa fa-facebook-square" aria-hidden="true"></i>Friend Finder</h1>
+				<h4>Please answer the following survey questions.</h4>
+				<hr class="my-4">
+			</div>
+			<!-- begin questions -->  
+			<div class="card">
+				<div class="card-body">
+
+					<p class="lead font-weight-bold">About you</p>
+
+					<div class="form-group">
+				        <label for="name">Name (Required)</label>
+				        <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter Your Name">
+				     </div>
+				    <div class="form-group">
+				    	<label for="imgURL">Link to Photo Image (Required)</label>
+				        <input type="text" class="form-control" id="photo" placeholder="Please Add Your Photo">
+				    <hr class="my-4">    
+				    </div>
+
+					<p class="lead font-weight-bold">Choose Between 1 (Strongly Disagree) and 5 (Strongly Agree)</p>
+
+					<div class="form-group">
+				        <h5>Question 1 </h5>
+				        <label for="q1">Do you believe you can be happy all the time?</label>
+				        <select class="form-control" id="q1">
+				            <option>1</option>
+				            <option>2</option>
+				            <option>3</option>
+				            <option>4</option>
+				            <option>5</option>
+				          </select>
+				     </div>
+					
+					<div class="form-group">
+				        <h5>Question 2 </h5>
+				        <label for="q2">Do you feel people should be closely connected with their families?</label>
+				        <select class="form-control" id="q2">
+				            <option>1</option>
+				            <option>2</option>
+				            <option>3</option>
+				            <option>4</option>
+				            <option>5</option>
+				          </select>
+				    </div>
+					
+					<div class="form-group">
+				        <h5>Question 3 </h5>
+				        <label for="q3">Do you find it easy to relax?</label>
+				        <select class="form-control" id="q3">
+				            <option>1</option>
+				            <option>2</option>
+				            <option>3</option>
+				            <option>4</option>
+				            <option>5</option>
+				          </select>
+				    </div>
+					
+					<div class="form-group">
+				        <h5>Question 4 </h5>
+				        <label for="q4">Do you believe passion should be the center of your life?</label>
+				        <select class="form-control" id="q4">
+				            <option>1</option>
+				            <option>2</option>
+				            <option>3</option>
+				            <option>4</option>
+				            <option>5</option>
+				          </select>
+				    </div>
+
+			      	<div class="form-group">
+			        	<h5>Question 5 </h5>
+			        	<label for="q5">People often irritate you.</label>
+			        	<select class="form-control" id="q5">
+				            <option>1</option>
+				            <option>2</option>
+				            <option>3</option>
+				            <option>4</option>
+				            <option>5</option>
+			          	</select>
+			      	</div>
+
+			      	<div class="form-group">
+			        	<h5>Question 6 </h5>
+			        	<label for="q6">It is difficult for you to relate to people most of the time.</label>
+			        	<select class="form-control" id="q6">
+				            <option>1</option>
+				            <option>2</option>
+				            <option>3</option>
+				            <option>4</option>
+				            <option>5</option>
+			          	</select>
+			      	</div>
+
+				  	<div class="form-group">
+				    	<h5>Question 7 </h5>
+				    	<label for="q7">In social gatherings, you feel in place.</label>
+				    	<select class="form-control" id="q7">
+					        <option>1</option>
+					        <option>2</option>
+					        <option>3</option>
+					        <option>4</option>
+					        <option>5</option>
+				      	</select>
+				  	</div>
+
+					<div class="form-group">
+						<h5>Question 8 </h5>
+						<label for="q8">You often daydream.</label>
+						<select class="form-control" id="q8">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+
+					<div class="form-group">
+						<h5>Question 9 </h5>
+						<label for="q9">You can appreciate people's perspectives even if they are not yours</label>
+						<select class="form-control" id="q9">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+
+					<div class="form-group">
+						<h5>Question 10 </h5>
+						<label for="q10">You feel more energetic after spending time with a group of people.</label>
+						<select class="form-control" id="q10">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+
+					<button id="submit" type="submit" class="btn btn-outline-primary">Submit</button>
+
+				</div>
+			</div>
+
+		<div id="friendModal" class="modal fade" role="dialog">
+	      	<div class="modal-dialog">
+	        <!-- Modal content-->
+	        <div class="modal-content">
+		        <div class="modal-header">
+		        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+		            <h2 class="modal-title"><strong>Best Match</strong></h2>
+		        </div>
+		        <div class="modal-body">
+		        	<h2 id="friendName"></h2>
+		            <img id="friendPhoto" class="img-responsive" alt="">
+		        </div>
+		        <div class="modal-footer">
+		            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        </div>
+		    </div>
+
+	      	</div>
+    	</div>
+
+		<footer>
+	      <div class="container">
+	        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/melaniewilson/friendFinder">GitHub Repo</a></p>
+	      </div>
+    	</footer>
+        </div>
+		
+		<script>
+		  $("#submit").on("click", function()
+		  {
+		    var userData = {
+		      name: $("#name").val(),
+		      photo: $("#photo").val(),
+		      scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()]
+		    };
+		    console.log(userData);
+		    var currentURL = window.location.origin;
+		    // console.log(currentURL + " test this");
+		    $.post(currentURL + "/api/friends", userData, function(data)
+		    {
+		      $("#friendName").text(data.name);
+		      $('#friendPhoto').attr("src", data.photo);
+		      $("#friendModal").modal('toggle');
+		    });
+		    return false;
+		  });
+		</script>
+
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
           crossorigin="anonymous"></script>

@@ -26,8 +26,7 @@ module.exports = function(app) {
     var min = Math.min.apply(null, difference);
     var matchIndex = difference.indexOf(min);
 
-
-    //add your profile to the db
+    //add your profile 
     friendData.push({
       "name": userName,
       "photo": userPhoto,
